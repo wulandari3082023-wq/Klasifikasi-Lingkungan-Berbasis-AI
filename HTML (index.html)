@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Edukasi Sosial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="login-box" id="loginPage">
+    <h2>Login Edukasi Sosial</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="info"></p>
+</div>
+
+<!-- HALAMAN UTAMA -->
+<div class="main hidden" id="mainPage">
+    <header>
+        <h1>Edukasi Sosial</h1>
+        <p>Membangun Kepedulian & Kesadaran Sosial</p>
+    </header>
+
+    <section class="content">
+        <h2>Pengertian Edukasi Sosial</h2>
+        <p>
+            Edukasi sosial adalah proses pembelajaran untuk meningkatkan
+            pemahaman, sikap, dan perilaku masyarakat terhadap nilai
+            kemanusiaan, kebersamaan, dan tanggung jawab sosial.
+        </p>
+    </section>
+
+    <section class="content">
+        <h2>Tujuan Edukasi Sosial</h2>
+        <ul>
+            <li>Menumbuhkan empati dan solidaritas</li>
+            <li>Mengurangi konflik sosial</li>
+            <li>Meningkatkan kualitas hidup masyarakat</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Peran Teknologi</h2>
+        <p>
+            Teknologi membantu penyebaran edukasi sosial secara luas melalui
+            media digital, website, dan platform interaktif.
+        </p>
+    </section>
+
+    <!-- LOGOUT -->
+    <footer>
+        <button class="logout" onclick="logout()">Logout</button>
+        <p>© 2025 Edukasi Sosial</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
